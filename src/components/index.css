@@ -1,0 +1,53 @@
+.error-view {
+  width: 600px;
+  height: 900px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  /* Hide content outside the bounds */
+}
+.error-view button {
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  align-self: center;
+}
+
+/* Actions Buttons */
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.actions button {
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.actions button:first-child {
+  background-color: transparent;
+  color: grey;
+}
+.actions button:first-child:hover {
+  background-color: #c82333;
+  color: #ffffff;
+}
+.actions button:last-child {
+  background-color: rgb(118, 118, 208);
+  color: white;
+}
+.actions button:last-child:hover {
+  background-color: #218838;
+}
